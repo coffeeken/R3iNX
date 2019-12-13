@@ -34,7 +34,7 @@ sysmod:
 	@cp $(dir_sysmod)/Common/exosphere/exosphere.bin $(dir_out)/ReiNX/secmon.bin
 	@cp $(dir_sysmod)/Common/exosphere/lp0fw.bin $(dir_out)/ReiNX/warmboot.bin
 	@touch $(dir_out)/ReiNX/contents/0100000000000032/flags/boot2.flag
-    @touch $(dir_out)/ReiNX/contents/0100000000000037/flags/boot2.flag
+	@touch $(dir_out)/ReiNX/contents/0100000000000037/flags/boot2.flag
 
 bootloader:
 	@$(MAKE) -C $(dir_source)
