@@ -1,0 +1,6 @@
+[submodule "NX_Sysmodules"]
+	path = NX_Sysmodules
+	url = https://github.com/D3fau4/NX_Sysmodules.git
+[submodule "src"]
+	path = src
+	url = https://github.com/D3fau4/ReiNX-bootloader.git
